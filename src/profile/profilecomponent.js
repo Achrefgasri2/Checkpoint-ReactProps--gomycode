@@ -40,8 +40,7 @@ profilecomponent.propTypes = {
     fullName: PropTypes.string,
     
     skills: PropTypes.arrayOf(PropTypes.string),
-    // lang: PropTypes.objectOf(PropTypes.string)
-    Bio : PropTypes.shape({
+     Bio : PropTypes.shape({
         diploma : PropTypes.arrayOf(PropTypes.string),
         skills : PropTypes.arrayOf(PropTypes.string),
         lang: PropTypes.shape({
